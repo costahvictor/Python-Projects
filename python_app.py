@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.static_folder = 'static'
 
 # --- Ngrok Setup for Public Accessibility ---
-ngrok.set_auth_token("2hsHFdDxHA52bBYNSPFPdWPR0WW_7qDchLWVqrPNxm2H3LEup")  # Replace with your actual token
+ngrok.set_auth_token("YOUR_ACTUAL_TOKEN_FROM_NGROK")  # Replace with your actual token
 public_url = ngrok.connect(addr="5000")  # Create a tunnel to port 5000 (default for Flask)
 print(f" * Running on {public_url}")  # Print the public URL provided by ngrok
 
