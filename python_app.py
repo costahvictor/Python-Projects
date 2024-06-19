@@ -16,7 +16,7 @@ public_url = ngrok.connect(addr="5000")  # Create a tunnel to port 5000 (default
 print(f" * Running on {public_url}")  # Print the public URL provided by ngrok
 
 # --- Data Loading and Preparation ---
-df = pd.read_csv('/content/amz_ca_total_products_data_processed.csv')  # Update the path to your CSV file
+df = pd.read_csv('PUT YOUR FILE PATH HERE!!!')  # Update the path to your CSV file
 df.columns = df.columns.str.strip()  # Clean column names (remove leading/trailing spaces)
 
 # Convert price and stars columns to numeric
