@@ -16,6 +16,8 @@ This repository showcases the integration of web development, data filtering, an
 
 To set up and run the Product Guru project, follow these steps:
 
+A. **Download the dataset at [https://www.kaggle.com/datasets/asaniczka/amazon-canada-products-2023-2-1m-products].**
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/product-guru.git
